@@ -1,0 +1,38 @@
+General Statistics
+Statistic,Value,P Value,Explanation
+Dependent Variable,Composite Sentiment,,"The sentiment score is calculated from customer reviews, indicating overall customer satisfaction."
+R-squared,0.960,,"The model's predictors explain 96.0% of the variation in sentiment scores, reflecting high model accuracy."
+Adjusted R-squared,0.960,,"After adjusting for the number of predictors, the model still explains 96.0% of the variation."
+F-statistic,1346,< 0.001,"Indicates the overall significance of the model. The model is highly significant, showing solid relationships between predictors and sentiment."
+Number of Observations,3000,,"The total number of reviews analyzed."
+Significant Predictors
+Predictors,Coefficient,P Value,Explanation
+Intercept (const),0.0052,0.009,"The baseline sentiment score is not significantly different from zero, indicating neutrality in the absence of other factors."
+Significant Predictors
+Predictors,Coefficient,P Value,Explanation
+Intercept (const),0.0052,0.009,"The baseline sentiment score is not significantly different from zero, indicating neutrality in the absence of other factors."
+Customer Service
+Predictors,Coefficient,P Value,Explanation
+Normalized Recommended,0.3632,< 0.001,"Higher recommendation scores strongly increase positive sentiment, highlighting that satisfied customers will likely boost sales revenue."
+Normalized Stars,0.3999,< 0.001,"Higher star ratings strongly increase positive sentiment, suggesting high customer satisfaction and potential for increased repeat business."
+First Class Business Traveler,0.0142,0.001,"Positive sentiment is higher among First Class Business travelers, indicating premium services enhance customer satisfaction."
+Country-Specific Routes
+Predictors,Coefficient,P Value,Explanation
+Australia (London to Sydney),0.0258,0.077,"Reviews for this route are more positive, indicating good service on this route, which could potentially boost route-specific sales revenue."
+China (London to Sydney),-0.0568,0.014,"Reviews for this route are pessimistic, highlighting the need for better services to improve customer sentiment and route profitability."
+United States (BKK to LHR),-0.0192,0.013,"Reviews for this route are more negative, indicating a need for service improvements."
+In-Flight Experience
+Predictors,Coefficient,P Value,Explanation
+Australia (London to Sydney),0.1066,0.012,"Reviews for in-flight experience on this route are more optimistic, indicating customer satisfaction with on-board services."
+United Kingdom (London to Tampa),0.0232,0.038,"Reviews for in-flight experience on this route are more optimistic, reflecting good customer service during flights."
+Saudi Arabia (LHR to CPT),-0.1122,0.048,"Reviews for customer service on this route are more pessimistic, suggesting areas for improvement to enhance satisfaction."
+Ground Services
+Predictors,Coefficient,P Value,Explanation
+United Kingdom (BLR to LHR),0.0647,0.023,"Reviews for ground services on this route are more optimistic, indicating effective ground operations that are improving customer sentiment."
+United States (LHR to CPT),-0.0955,0.02,"Reviews for ground services on this route are more pessimistic, suggesting areas for improvement to enhance customer satisfaction."
+Safety Concerns
+Predictors,Coefficient,P Value,Explanation
+United States (BKK to LHR),-0.1191,0.004,"Reviews indicating safety concerns on this route are more pessimistic, highlighting critical areas for improvement."
+Other Predictors
+Predictors,Coefficient,P Value,Explanation
+Various Routes (multiple),mixed,mixed,"Various routes and categories indicated mixed results, highlighting the need for targeted improvements and monitoring."
