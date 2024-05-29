@@ -25,8 +25,7 @@ The `prepare_data.py` script is used to prepare data from British Airways review
 - **Model Training:** Training various classification models (Logistic Regression, Random Forest, Gradient Boosting, SVM, Neural Network) using TF-IDF vectorization.
 
 #### Execution:
-```bash
-python3.11 part_one/prepare_data.py
+    python3.11 part_one/prepare_data.py
 
 
 ### `log_loss.py`
@@ -40,8 +39,7 @@ The `log_loss.py` script measures the log loss of different classification model
 - **Log Loss Calculation:** Calculate and plot log loss for training and testing datasets.
 
 #### Execution:
-```bash
-python3.11 part_one/log_loss.py
+    python3.11 part_one/log_loss.py
 
 
 ### `tfidf_count_vec.py`
@@ -68,10 +66,9 @@ Currently, this folder is empty. Future expansions or additional analyses can be
 
 ## Installation
 
-Install the required packages using pip:
+Install the required packages using pip
 
-```bash
-pip install pandas numpy textblob nltk vaderSentiment joblib scikit-learn gensim matplotlib statsmodels
+    pip install pandas numpy textblob nltk vaderSentiment joblib scikit-learn gensim matplotlib statsmodels
 
 
 ## Dataset
